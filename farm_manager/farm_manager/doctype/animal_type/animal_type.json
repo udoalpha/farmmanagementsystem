@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-20 14:19:09.023756",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "animal_type_section",
+  "company",
+  "cost_center",
+  "project",
+  "animal_type",
+  "scientific_name",
+  "category",
+  "domesticated",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "animal_type_section",
+   "fieldtype": "Section Break",
+   "label": "Animal Type"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "cost_center",
+   "fieldtype": "Link",
+   "label": "Cost Center",
+   "options": "Cost Center"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Project"
+  },
+  {
+   "fieldname": "animal_type",
+   "fieldtype": "Data",
+   "label": "Animal Type"
+  },
+  {
+   "fieldname": "scientific_name",
+   "fieldtype": "Data",
+   "label": "Scientific Name"
+  },
+  {
+   "default": "Select a Category",
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "label": "Category",
+   "options": "Select a Category\nMammal\nBird\nReptile\nAmphibian\nFish\nInsect"
+  },
+  {
+   "default": "0",
+   "fieldname": "domesticated",
+   "fieldtype": "Check",
+   "label": "Domesticated"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-20 19:50:31.047247",
+ "modified_by": "munganyinkashakira@gmail.com",
+ "module": "Farm Manager",
+ "name": "Animal Type",
+ "owner": "munganyinkashakira@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
