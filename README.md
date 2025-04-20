@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # farmmanagementsystem
 =======
 ### Farmland
@@ -35,3 +36,12 @@ Pre-commit is configured to use the following tools for checking and formatting 
 
 mit
 >>>>>>> 43929e7 (feat: Initialize App)
+=======
+## Farm Manager
+
+farm management system
+
+#### License
+
+mit
+>>>>>>> cac510e (Animal doctype created)

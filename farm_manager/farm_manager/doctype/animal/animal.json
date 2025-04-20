@@ -1,0 +1,335 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-19 20:43:24.926971",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_information_tab",
+  "basic_information_section",
+  "animal_name",
+  "tag_number",
+  "sex",
+  "group",
+  "paddock",
+  "registry_number",
+  "tattoo_at_left",
+  "column_break_gkik",
+  "animal_type",
+  "breed",
+  "interl_id",
+  "status",
+  "electrinic_id",
+  "parent1",
+  "tattoo_at_right",
+  "yield_section",
+  "stuff",
+  "physical_characteristics_section",
+  "is_breeding_stock",
+  "color",
+  "weight",
+  "height",
+  "width",
+  "column_break_dnzt",
+  "frame_score",
+  "condition_score",
+  "wellness_score",
+  "last_measured_on",
+  "birth_information_section",
+  "dob",
+  "dam_maternity",
+  "sire_parternity",
+  "column_break_djnf",
+  "birth_weight",
+  "age_to_wean",
+  "date_weaned",
+  "additional_information_section",
+  "method_acquired",
+  "veterinarian",
+  "measure_in_harvest_uom",
+  "column_break_zclc",
+  "expected_maturity_date",
+  "estimated_value",
+  "general_ledger_account",
+  "tab_2_tab",
+  "tab_3_tab"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic_information_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Information"
+  },
+  {
+   "fieldname": "animal_name",
+   "fieldtype": "Data",
+   "label": "Animal Name"
+  },
+  {
+   "fieldname": "tag_number",
+   "fieldtype": "Data",
+   "label": "Tag Number"
+  },
+  {
+   "fieldname": "sex",
+   "fieldtype": "Select",
+   "label": "Sex",
+   "options": "Male\nFemale"
+  },
+  {
+   "fieldname": "group",
+   "fieldtype": "Select",
+   "label": "Group",
+   "options": "Group"
+  },
+  {
+   "fieldname": "paddock",
+   "fieldtype": "Select",
+   "label": "Paddock",
+   "options": "Paddock"
+  },
+  {
+   "fieldname": "registry_number",
+   "fieldtype": "Data",
+   "label": "Registry Number"
+  },
+  {
+   "default": "0",
+   "fieldname": "tattoo_at_left",
+   "fieldtype": "Check",
+   "label": "Tattoo at Left"
+  },
+  {
+   "fieldname": "column_break_gkik",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "animal_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Animal Type",
+   "options": "Animal Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "breed",
+   "fieldtype": "Select",
+   "label": "Breed",
+   "options": "Breed"
+  },
+  {
+   "fieldname": "interl_id",
+   "fieldtype": "Data",
+   "label": "Interl ID"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status"
+  },
+  {
+   "fieldname": "electrinic_id",
+   "fieldtype": "Data",
+   "label": "Electrinic ID"
+  },
+  {
+   "fieldname": "parent1",
+   "fieldtype": "Link",
+   "label": "Parent",
+   "options": "Animal"
+  },
+  {
+   "default": "0",
+   "fieldname": "tattoo_at_right",
+   "fieldtype": "Check",
+   "label": "Tattoo at Right"
+  },
+  {
+   "fieldname": "basic_information_tab",
+   "fieldtype": "Tab Break",
+   "label": "Basic Information"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "yield_section",
+   "fieldtype": "Section Break",
+   "label": "Yield"
+  },
+  {
+   "fieldname": "stuff",
+   "fieldtype": "Data",
+   "label": "Stuff"
+  },
+  {
+   "fieldname": "physical_characteristics_section",
+   "fieldtype": "Section Break",
+   "label": "Physical Characteristics"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_breeding_stock",
+   "fieldtype": "Check",
+   "label": "Is Breeding Stock"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Color",
+   "label": "Color"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Int",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Int",
+   "label": "Height"
+  },
+  {
+   "fieldname": "width",
+   "fieldtype": "Int",
+   "label": "Width"
+  },
+  {
+   "fieldname": "column_break_dnzt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "frame_score",
+   "fieldtype": "Float",
+   "label": "Frame Score",
+   "precision": "1"
+  },
+  {
+   "fieldname": "condition_score",
+   "fieldtype": "Int",
+   "label": "Condition Score"
+  },
+  {
+   "fieldname": "wellness_score",
+   "fieldtype": "Int",
+   "label": "Wellness Score"
+  },
+  {
+   "fieldname": "last_measured_on",
+   "fieldtype": "Date",
+   "label": "Last Measured On"
+  },
+  {
+   "fieldname": "birth_information_section",
+   "fieldtype": "Section Break",
+   "label": "Birth Information"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "dam_maternity",
+   "fieldtype": "Data",
+   "label": "Dam (maternity)"
+  },
+  {
+   "fieldname": "sire_parternity",
+   "fieldtype": "Data",
+   "label": "Sire (parternity)"
+  },
+  {
+   "fieldname": "column_break_djnf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "birth_weight",
+   "fieldtype": "Float",
+   "label": "Birth Weight"
+  },
+  {
+   "fieldname": "age_to_wean",
+   "fieldtype": "Int",
+   "label": "Age to Wean"
+  },
+  {
+   "fieldname": "date_weaned",
+   "fieldtype": "Date",
+   "label": "Date Weaned"
+  },
+  {
+   "fieldname": "additional_information_section",
+   "fieldtype": "Section Break",
+   "label": "Additional Information"
+  },
+  {
+   "fieldname": "method_acquired",
+   "fieldtype": "Select",
+   "label": "Method Acquired",
+   "options": "Purchased\nBirthed\nDonation"
+  },
+  {
+   "fieldname": "tab_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Tab 2"
+  },
+  {
+   "fieldname": "veterinarian",
+   "fieldtype": "Select",
+   "label": "Veterinarian",
+   "options": "Veterinarian"
+  },
+  {
+   "fieldname": "measure_in_harvest_uom",
+   "fieldtype": "Data",
+   "label": "Measure In Harvest (UOM)"
+  },
+  {
+   "fieldname": "column_break_zclc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "expected_maturity_date",
+   "fieldtype": "Date",
+   "label": "Expected Maturity Date"
+  },
+  {
+   "fieldname": "estimated_value",
+   "fieldtype": "Date",
+   "label": "Estimated Value"
+  },
+  {
+   "fieldname": "general_ledger_account",
+   "fieldtype": "Link",
+   "label": "General Ledger Account ",
+   "options": "Account"
+  },
+  {
+   "fieldname": "tab_3_tab",
+   "fieldtype": "Tab Break",
+   "label": "Tab 3"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-20 11:27:37.726402",
+ "modified_by": "Administrator",
+ "module": "Farm Manager",
+ "name": "Animal",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
