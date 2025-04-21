@@ -1,13 +1,15 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2025-04-20 14:19:09.023756",
+ "creation": "2025-04-20 14:38:55.250117",
  "doctype": "DocType",
+ "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "company",
   "cost_center",
   "project",
+  "breed_name",
   "animal_type"
  ],
  "fields": [
@@ -30,18 +32,24 @@
    "options": "Project"
   },
   {
-   "fieldname": "animal_type",
+   "fieldname": "breed_name",
    "fieldtype": "Data",
-   "label": "Animal Type"
+   "label": "Breed Name"
+  },
+  {
+   "fieldname": "animal_type",
+   "fieldtype": "Link",
+   "label": "Animal Type",
+   "options": "Animal Type"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-21 08:46:03.169928",
+ "modified": "2025-04-21 08:45:20.767602",
  "modified_by": "munganyinkashakira@gmail.com",
  "module": "Farm Manager",
- "name": "Animal Type",
+ "name": "Breed",
  "owner": "munganyinkashakira@gmail.com",
  "permissions": [
   {

@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestPurpose(FrappeTestCase):
+class TestBreed(FrappeTestCase):
 	pass

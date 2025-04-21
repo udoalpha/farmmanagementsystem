@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class Purpose(Document):
+class Breed(Document):
 	pass
