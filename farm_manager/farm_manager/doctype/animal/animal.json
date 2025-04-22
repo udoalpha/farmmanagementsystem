@@ -52,7 +52,8 @@
   "estimated_value",
   "general_ledger_account",
   "tab_2_tab",
-  "tab_3_tab"
+  "tab_3_tab",
+  "treatments"
  ],
  "fields": [
   {
@@ -84,7 +85,7 @@
   },
   {
    "fieldname": "paddock",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "label": "Paddock",
    "options": "Paddock"
   },
@@ -105,7 +106,7 @@
   },
   {
    "fieldname": "animal_type",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Animal Type",
    "options": "Animal Type",
@@ -305,12 +306,18 @@
   {
    "fieldname": "tab_3_tab",
    "fieldtype": "Tab Break",
-   "label": "Tab 3"
+   "label": "Treatments"
+  },
+  {
+   "fieldname": "treatments",
+   "fieldtype": "Table",
+   "label": "Treatments",
+   "options": "Treatment Child Table"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-20 11:27:37.726402",
+ "modified": "2025-04-22 12:39:25.218503",
  "modified_by": "Administrator",
  "module": "Farm Manager",
  "name": "Animal",
@@ -329,6 +336,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []

@@ -1,0 +1,135 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-22 11:45:11.027666",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_0rs6",
+  "amended_from",
+  "treatment_type",
+  "days_until_withdrawal_date",
+  "technician",
+  "column_break_avsh",
+  "date",
+  "treatment_location",
+  "next_date_of_treatment",
+  "general_ledger_account",
+  "section_break_fiqc",
+  "products",
+  "section_break_txax",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_0rs6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Treatment",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "treatment_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Treatment Type",
+   "options": "Treatment Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "days_until_withdrawal_date",
+   "fieldtype": "Int",
+   "label": "Days Until Withdrawal Date "
+  },
+  {
+   "fieldname": "technician",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Technician",
+   "options": "Technician",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_avsh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "treatment_location",
+   "fieldtype": "Link",
+   "label": "Treatment Location",
+   "options": "Treatment Location"
+  },
+  {
+   "fieldname": "next_date_of_treatment",
+   "fieldtype": "Date",
+   "label": "Next Date of Treatment"
+  },
+  {
+   "fieldname": "general_ledger_account",
+   "fieldtype": "Link",
+   "label": "General Ledger Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "section_break_fiqc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "products",
+   "fieldtype": "Table",
+   "label": "Products",
+   "options": "Treatment Product Table"
+  },
+  {
+   "fieldname": "section_break_txax",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-04-22 13:28:50.653587",
+ "modified_by": "Administrator",
+ "module": "Farm Manager",
+ "name": "Treatment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
