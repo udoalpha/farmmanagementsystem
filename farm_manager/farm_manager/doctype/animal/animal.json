@@ -53,7 +53,9 @@
   "general_ledger_account",
   "tab_2_tab",
   "tab_3_tab",
-  "treatments"
+  "treatments",
+  "measurements_tab",
+  "measurement"
  ],
  "fields": [
   {
@@ -301,7 +303,7 @@
    "fieldname": "general_ledger_account",
    "fieldtype": "Link",
    "label": "General Ledger Account ",
-   "options": "Account"
+   "options": "Address"
   },
   {
    "fieldname": "tab_3_tab",
@@ -313,11 +315,22 @@
    "fieldtype": "Table",
    "label": "Treatments",
    "options": "Treatment Child Table"
+  },
+  {
+   "fieldname": "measurements_tab",
+   "fieldtype": "Tab Break",
+   "label": "Measurements"
+  },
+  {
+   "fieldname": "measurement",
+   "fieldtype": "Table",
+   "label": "Measurements",
+   "options": "Measurement Child Table"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-22 12:39:25.218503",
+ "modified": "2025-04-25 00:56:45.720134",
  "modified_by": "Administrator",
  "module": "Farm Manager",
  "name": "Animal",
@@ -336,7 +349,6 @@
    "write": 1
   }
  ],
- "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []

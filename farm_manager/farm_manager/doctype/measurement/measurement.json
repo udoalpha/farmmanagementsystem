@@ -1,0 +1,121 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-24 23:24:27.986280",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_yghi",
+  "animal",
+  "date",
+  "technician",
+  "weight",
+  "height",
+  "width",
+  "column_break_qeat",
+  "temperature",
+  "condition_score",
+  "famacha",
+  "fecal_egg_count",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_yghi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Measurement",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Int",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Int",
+   "label": "Height"
+  },
+  {
+   "fieldname": "width",
+   "fieldtype": "Int",
+   "label": "Width"
+  },
+  {
+   "fieldname": "column_break_qeat",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "temperature",
+   "fieldtype": "Int",
+   "label": "Temperature"
+  },
+  {
+   "fieldname": "condition_score",
+   "fieldtype": "Int",
+   "label": "Condition Score"
+  },
+  {
+   "fieldname": "famacha",
+   "fieldtype": "Int",
+   "label": "Famacha"
+  },
+  {
+   "fieldname": "fecal_egg_count",
+   "fieldtype": "Int",
+   "label": "Fecal Egg Count"
+  },
+  {
+   "fieldname": "technician",
+   "fieldtype": "Link",
+   "label": "Technician",
+   "options": "Technician"
+  },
+  {
+   "fieldname": "animal",
+   "fieldtype": "Link",
+   "label": "Animal",
+   "options": "Animal"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-04-25 00:11:28.182745",
+ "modified_by": "Administrator",
+ "module": "Farm Manager",
+ "name": "Measurement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
